@@ -72,7 +72,7 @@
                                 <i class="icon icon-handshake"></i>Контакты
                             </a>
                         </li>
-                        <li class="header__menu-dropdown desktop">
+                        <li class="header__menu-dropdown  ">
                             <a class="active" href="javascript:void(0)">
                                 Другое
                             </a>
@@ -84,7 +84,7 @@
                                     </a></li>
                             </ul>
                         </li>
-                        <li class="header__menu-dropdown desktop">
+                        <li class="header__menu-dropdown  ">
                             <a class="" href="javascript:void(0)">
                                 Другое (other)
                             </a>
@@ -118,13 +118,14 @@
                         </button>
                         <!-- <a href="add.html" data-target="#loginModal" class="btn" type="button">
                             <i class="icon icon_mr icon-login"></i>
-                            place an ad
+                            Login
                         </a> -->
                         <button data-goal="create-advert" type="button" data-toggle="modal"
                             data-target="#registrationModal" class="btn">
                             <i class="icon icon_mr icon-login"></i>
-                            place an ad
+                            Login
                         </button>
+
                     </div>
 
                 </div>
@@ -149,11 +150,11 @@
                             <button data-goal="click-reg" data-toggle="modal" data-target="#registrationModal"
                                 class="btn btn_green" type="button">
                                 <i class="icon icon_mr icon-user"></i>
-                                �&nbsp;егистрация
+                                &nbsp;егистрация
                             </button>
                             <a href="add.html" data-target="#loginModal" class="btn header__login" type="button">
                                 <i class="icon icon_mr icon-login"></i>
-                                place an ad
+                                Login
                             </a>
                         </div>
                     </div>
@@ -194,51 +195,61 @@
 
             <section class="container container_with-bg" style="padding-top: 30px">
                 <div class="rating__box box" style="padding: 30px;">
-                    <h1 class="heading-page">
-                        Партнерская программа
+                    <a data-goal="create-advert" type="button" data-toggle="modal" data-target="#affiliate"
+                        style="cursor: pointer;">
+                        <h1 class="heading-page">
+                            Партнерская программа
 
-                    </h1>
-                    <div class="description-page">
+                        </h1>
+                    </a>
+                    <div class="flex-seller">
+                        <div class="description-page left">
 
-                        <p>
-                            <strong>
-                                Приглашаете покупателей и продавцов - получайте деньги на счет!
-                            </strong>
-                        </p>
+                            <p>
+                                <strong>
+                                    Приглашаете покупателей и продавцов - получайте деньги на счет!
+                                </strong>
+                            </p>
 
-                        <p>
-                            На нашей платформе уже более 600 людей которые работают/работали по нашей партнерской
-                            программе. Мы открыты к сотрудничеству и готовы предложить вам работать с нами.
-                            Как это работает?
+                            <p>
+                                На нашей платформе уже более 600 людей которые работают/работали по нашей партнерской
+                                программе. Мы открыты к сотрудничеству и готовы предложить вам работать с нами.
+                                Как это работает?
 
-                        </p>
-                        <p>
-                            Мы предлагаем два типа сотрудничества:
-                            Физическое лицо:
-                        </p>
-                        <p>
-                            Начисляются 10% от комиссии биржи для реферала. Потратить их можно на покупку услуг
-                            продвижения.
+                            </p>
+                            <p>
+                                Мы предлагаем два типа сотрудничества:
+                                Физическое лицо:
+                            </p>
+                            <p>
+                                Начисляются 10% от комиссии биржи для реферала. Потратить их можно на покупку услуг
+                                продвижения.
 
-                        </p>
-                        <p>
-                            Юридическое лицо (в т.ч. ИП, самозанятый)
-                        </p>
-                        <p>
-                            Начисляются 10% от комиссии биржи для реферала. Раз в месяц (5-го числа) происходит
-                            автоматический вывод средств на указанные данные при заполнении формы. Заявки на вывод
-                            формируются только в том случае если на вашем балансе более 1000 руб
-                            После того как вы авторизовались на нашем сайте, вы сможете получить собственную
-                            реферальную ссылку, которую вы будете использовать для приглашения людей. У вашей
-                            реферальной ссылки нету
-                        </p>
-                        <p>
-                            <strong>
-                                Правила Партнерской Программы:
+                            </p>
+                            <p>
+                                Юридическое лицо (в т.ч. ИП, самозанятый)
+                            </p>
+                            <p>
+                                Начисляются 10% от комиссии биржи для реферала. Раз в месяц (5-го числа) происходит
+                                автоматический вывод средств на указанные данные при заполнении формы. Заявки на вывод
+                                формируются только в том случае если на вашем балансе более 1000 руб
+                                После того как вы авторизовались на нашем сайте, вы сможете получить собственную
+                                реферальную ссылку, которую вы будете использовать для приглашения людей. У вашей
+                                реферальной ссылки нету
+                            </p>
+                            <p>
+                                <strong>
+                                    Правила Партнерской Программы:
 
-                            </strong>
-                        </p>
+                                </strong>
+                            </p>
+                        </div>
+                        <div class="right">
+                            <img src="./images/WhatsApp Image 2024-03-14 at 22.17.35_b9920d39.jpg" style="width: 100%;"
+                                alt="">
+                        </div>
                     </div>
+
                     <div class=" list-services">
                         <ul>
                             <li>
@@ -591,7 +602,7 @@
                         <i class="icon icon-close-thin"></i>
                     </button>
                     <div class="modal__header">
-                        <div class="modal__title">�&nbsp;егистрация</div>
+                        <div class="modal__title"> &nbsp;егистрация</div>
                     </div>
                     <form name="fos_user_registration_form" method="post" action="/register"
                         class="login-modal__content modal__content" autocomplete="new-password" data-ajax=""
@@ -654,6 +665,38 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="affiliate" tabindex="-1" role="dialog" aria-labelledby="affiliateModalLabel"
+            aria-hidden="true">
+            <div class="login-modal modal-dialog modal-dialog-centered modal__dialog" role="document">
+                <div class="modal-content modal__box">
+                    <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon icon-close-thin"></i>
+                    </button>
+
+                    <form name="fos_user_registration_form" method="post" action="/register"
+                        class="login-modal__content modal__content" autocomplete="new-password" data-ajax=""
+                        data-success="redirect">
+                        <input type="hidden" name="_target_path" value="/sellers/">
+
+                        <div class="login-modal__inputs">
+                            <div class="error-container" data-entity="form-error"></div>
+                            <div class="input-text">
+                                <label for="" style="font-weight: 700; padding-bottom: 10px;">
+                                    Сумма сделки
+                                </label>
+                                <input type="text" style="margin-top: 10px;" id="fos_user_registration_form_fullName"
+                                    name="fos_user_registration_form[fullName]" required="required" maxlength="45"
+                                    pattern=".{3,}" autocomplete="off" placeholder="5000">
+                            </div>
+
+                        </div>
+
+
+                    </form>
+
                 </div>
             </div>
         </div>
